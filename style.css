@@ -84,4 +84,10 @@ div.thumbnail{
     width: calc(100% / 5);
 }
 
+div.thumbnail img{
+    filter: brightness(40%);
+}
 
+div.thumbnail img.active{
+    filter: brightness(100%);
+}
