@@ -34,7 +34,7 @@ main p{
     transform: translatey(-50%)
 }
 
-div.carousel .carouselItem{
+div.wrapper .carouselItem{
     height: 100%;
     width: 100%;
     display: none;
