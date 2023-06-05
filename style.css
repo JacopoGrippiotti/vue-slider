@@ -61,6 +61,7 @@ img{
 div.pre-button:hover, div.post-button:hover{
     background-color: lightgray;
     color: blue;
+    cursor: pointer;
 }
 .pre-button i, .post-button i{
     margin: auto;
@@ -86,6 +87,10 @@ div.thumbnail{
 
 div.thumbnail img{
     filter: brightness(40%);
+}
+
+div.thumbnail img:hover{
+    cursor: pointer;
 }
 
 div.thumbnail img.active{
