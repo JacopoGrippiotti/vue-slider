@@ -9,11 +9,15 @@
     <title>Document</title>
  </head>
  <body>
-    <main id="app">
-        
+    <div id="app">
+        <header>
+            <h1>
+                Vue Carousel
+            </h1>
+        </header>
         <div class="wrapper">
             <div class="slide">
-                <img :src="" alt="">
+                <img :src="images[activeIndex]" alt="">
                 <div class="pre-button">
                     <i class="fa-solid fa-chevron-left"></i>
                 </div>
@@ -22,7 +26,7 @@
                 </div>
             </div>
         </div>
-    </main>
+    </div>
     <script src="script.js"></script>
  </body>
 </html>
