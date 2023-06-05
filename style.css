@@ -8,25 +8,32 @@ header h1{
     text-align: center;
 }
 
+header{
+    margin-bottom: 3rem;
+}
 div.wrapper{
     width: 70%;
-    max-width: 1000px;
     margin: 5rem auto;
     align-items: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    background-color: blue;
-    height: 400px;
+    height: 700px;
 }
 
 div.slide{
     position: relative;
     display: flex;
     flex-direction: column;
+    height: 100%;
+    width: 100%;
 }
 
+div.slide>img{
+    height: calc(100% - 5rem);
+    
+}
 .pre-button, .post-button{
     position: absolute;
     top: 50%;
