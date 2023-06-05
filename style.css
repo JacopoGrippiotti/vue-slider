@@ -9,18 +9,18 @@ header h1{
 }
 
 header{
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 div.wrapper{
     width: 70%;
-    margin: 3rem auto;
+    margin: 2rem auto;
     align-items: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    height: 800px;
     border: 1px solid black;
+    height: 820px;
 }
 
 div.slide{
@@ -74,7 +74,7 @@ div.pre-button:hover, div.post-button:hover{
 }
 
 div.thumbnail-wrapper{
-    height: 70px;
+    height: 120px;
     display: flex;
 }
 
