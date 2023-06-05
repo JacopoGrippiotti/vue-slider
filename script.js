@@ -48,27 +48,3 @@ createApp({
         }
     }
 }).mount('#app')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-const images = [
-   
-];
