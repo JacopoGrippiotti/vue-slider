@@ -5,19 +5,21 @@
 }
 
 
-main{
-    background-color: white;
-    text-align: center;
+div.wrapper{
+    width: 70%;
     max-width: 1000px;
     margin: 5rem auto;
-    text-align: center;
-    height: 900px;
+    align-items: center;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
 
-main p{
-    width: 100%;
+div.slide{
+    position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .pre-button, .post-button{
@@ -31,21 +33,14 @@ main p{
     transform: translatey(-50%)
 }
 
-div.wrapper .carouselItem{
-    height: 100%;
+img{
     width: 100%;
-    display: none;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
-div.carouselItem img{
-    height: 100%;
-    width: 100%;
-    
-}
 
-div.carouselItem.active{
-    display: flex;
-}
 
 div.pre-button:hover, div.post-button:hover{
     background-color: lightgray;
@@ -62,10 +57,5 @@ div.pre-button:hover, div.post-button:hover{
     right: .5rem;
 }
 
-div.carousel{
-    position: relative;
-    height: 800px;
-    width: 100%;
-    margin: auto;
-}
+
 
