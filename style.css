@@ -19,7 +19,8 @@ div.wrapper{
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    height: 700px;
+    height: 800px;
+    border: 1px solid black;
 }
 
 div.slide{
@@ -29,11 +30,14 @@ div.slide{
     height: 100%;
     width: 100%;
 }
-
+div.slide p{
+    min-height: 37px;
+}
 div.slide>img{
     height: calc(100% - 5rem);
-    
+    max-height: 665px;
 }
+
 .pre-button, .post-button{
     position: absolute;
     top: 50%;
@@ -69,5 +73,15 @@ div.pre-button:hover, div.post-button:hover{
     right: .5rem;
 }
 
+div.thumbnail-wrapper{
+    height: 70px;
+    display: flex;
+}
+
+
+div.thumbnail{
+    height: 100%;
+    width: calc(100% / 5);
+}
 
 
